@@ -36,7 +36,7 @@ class VentanaJugadorV4:
         tk.Label(self.sidebar, text="PANEL JUGADOR", font=("Helvetica", 8, "bold"), bg=self.bg_sidebar, fg=self.texto_s).pack(pady=(0, 30))
 
         # Botones de navegación
-        self.crear_btn("🏠 Inicio", lambda: self.seccion_inicio({"nombre": "Santiago Castro"}))
+        self.crear_btn("🏠 Inicio", lambda: self.seccion_inicio({"nombre": "xxxxxx xxxxxxx"}))
         self.crear_btn("📅 Mi Agenda", self.seccion_entrenamientos)
         
         tk.Label(self.sidebar, text="ESTADÍSTICAS", font=("Helvetica", 7, "bold"), bg=self.bg_sidebar, fg=self.texto_s).pack(anchor="w", padx=25, pady=(20, 5))
@@ -147,4 +147,4 @@ class VentanaJugadorV4:
         tk.Label(f, text=texto, font=("Helvetica", 12), bg="white").pack(anchor="w", pady=10)
 
 if __name__ == "__main__":
-    VentanaJugadorV4({"nombre": "Santiago Castro"})
+    VentanaJugadorV4({"nombre": "xxxxxx xxxxxxx"})
