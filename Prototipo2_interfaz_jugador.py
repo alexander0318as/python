@@ -3,7 +3,7 @@ from tkinter import ttk
 from datetime import datetime, timedelta
 
 class InterfazJugadorSolo:
-    def __init__(self, nombre_jugador="Santiago Castro"):
+    def __init__(self, nombre_jugador="XXXX XXXX"):
         self.root = tk.Tk()
         self.root.title("System Pro Futbol - Dashboard del Jugador")
         self.root.geometry("1200x850")
